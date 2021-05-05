@@ -1,0 +1,217 @@
+html {
+    font-family: serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Header-Cristina Spinei */
+
+#cristinaspinei {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 49px;
+    top: 2em;
+    width: 1900px;  
+    z-index: .1;
+    letter-spacing: 0.1em; 
+    word-spacing: 0.4cm;
+}
+
+
+/* Home Nav and Wallet Connect both Bootstrap*/
+#home {
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    width: 8em;
+    max-height: 3em;
+    line-height: 1.5em;
+    list-style: none;
+    color: rgba(82,82,82,.72);
+    margin: 2em;
+    top: 3em;
+    left: 8em;
+    padding: 0.3em;
+    border-radius: 12%;
+    z-index: 6; 
+}
+
+#connectwallet {
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    max-width: 15em;
+    max-height: 3em;
+    line-height: 1.5em;
+    list-style: none;
+    color: rgba(82,82,82,.72);
+    margin: 2em;
+    top: 3em;
+    right: 8em;
+    padding: 0.3em;
+    border-radius: 12%;
+    z-index: 6; 
+}
+
+#buynow {
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    width: 8em;
+    max-height: 3em;
+    line-height: 1.5em;
+    list-style: none;
+    color: rgba(82,82,82,.72);
+    margin: 2.5em;
+    top: 60em;
+    left: 62em;
+    padding: 0.3em;
+    border-radius: 12%;
+    z-index: 6; 
+}
+
+body {
+    background-color: transparent;
+    background-attachment: fixed;
+}
+
+h1 {
+    max-height: 0 auto;
+    color: rgba(82,82,82,.72);
+    text-align: center;
+    font-weight: 400;
+    font-style: medium;
+    font-size: 5em;
+    text-transform: uppercase;
+    line-height: 2em;
+    max-width: 1900px;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: rgba(82,82,82,.72);
+    max-width: 1900px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 22px;
+    letter-spacing: 0.3em;
+    padding-top: 4.5em;
+    margin: auto;
+    margin-top: 1em; 
+}
+
+h3 {
+    font-size: 2.3em;
+    margin: auto;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.72);
+    font-weight: 800; 
+}
+
+#prelude {
+    margin-bottom: 1.8em;
+}
+
+h4 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 300;
+    margin: auto;
+    padding-top: 0.8em;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(82,82,82,.72);
+    font-size: 12px;
+    z-index: .1;
+    letter-spacing: 0.1em; 
+}
+
+/* Write up */
+article {
+    display: inline-block;
+    position: absolute;
+    color: rgba(53, 52, 52, 0.72);
+    font-size: 16px;
+    text-align: center;
+    left: 58em;
+    right: 18em;
+    top: 28em; 
+    line-height: 1.6em;  
+}
+
+#description{
+    color: rgba(53, 52, 52, 0.72);
+    font-size: 16px;
+    text-align: left;
+}
+
+#worknotes{  
+    color: rgba(82,82,82,.72);
+    font-size: 16px;
+    text-align: left;
+    padding-top: 4em;
+}
+
+/* ART */
+img {
+    position: relative;
+    left: 18em;
+    top: 12em;
+}
+
+/* Audio */
+#audio {
+    position: absolute;
+    left: 58em;
+    top: 48em;
+    background-color: rgba(169, 141, 196, 0.226);
+    border-radius: 33px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+audio {
+    position: relative;
+    padding-top: -2em;
+    margin-top: 2em; 
+}
+
+/* Video*/ 
+video {
+    max-width: 1200px;
+    max-height: 800px;
+    position: relative;
+    left: 20em;
+    margin-top: 40em;
+    margin-bottom: 10em;
+}
+
+
+
+/*Footer*/
+footer {
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 20em;
+    padding-bottom: 6em;
+}
+
+footer2 {
+    display: inline-block;
+    position: relative;
+    bottom: 0em;
+    left: 45em;
+}
+
+
+
